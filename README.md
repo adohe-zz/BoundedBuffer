@@ -1,2 +1,2 @@
 # BoundedBuffer
-Efficient bounded buffer implementation in Java.
+Efficient thread safe bounded buffer implementation in Java.
