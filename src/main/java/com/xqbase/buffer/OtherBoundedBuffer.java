@@ -1,10 +1,13 @@
 package com.xqbase.buffer;
 
+import net.jcip.annotations.ThreadSafe;
+
 /**
  * Efficient array-based bounded buffer class.
  *
  * @author Doug Lea
  */
+@ThreadSafe
 public class OtherBoundedBuffer {
 
     protected final Object[]  array_;      // the elements
